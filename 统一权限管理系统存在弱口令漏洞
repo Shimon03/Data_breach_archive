@@ -7,11 +7,11 @@
     "Query": "(app=\"统一权限管理系统\"|title=\"Login to Cacti\"|app=\"Cactiez\")",
     "Description": "allows remote attackers to upload and execute arbitrary files",
     "Product": "SYSTEM001",
-    "Homepage": "https://101.42.23.248"
-    "Username": admin
-    "Password": admin
-    "Attention": run it in IE11 IE10 or Microsoft Edge under "IE Mode"
-    "User-Agent": IE10/IE11
+    "Homepage": "https://101.42.23.248",
+    "Username": admin,
+    "Password": admin,
+    "Attention": run it in IE11 IE10 or Microsoft Edge under "IE Mode",
+    "User-Agent": IE10/IE11,
     "Author": "admin",
     "Impact": "<p>Remote attacker can use to replace web application files with malicious code and perform remote code execution on the system.<br></p>",
     "Recommendation": "",
