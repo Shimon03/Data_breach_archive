@@ -5,7 +5,7 @@ date: 2023-05-05 23:13:37
 author: baosiby
 category: advisories
 tags: [ windows, office, word, rtf, bof ]
-URL: https://43.138.26.254
+URL: https://43.138.26.254:8443
 ---
 
 A vulnerability within Microsoft Office's wwlib allows attackers to achieve
