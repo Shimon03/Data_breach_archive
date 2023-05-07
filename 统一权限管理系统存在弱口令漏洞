@@ -2,11 +2,10 @@
     "name": "统一权限管理系统",
     "Level": "3",
     "Tags": [
-          "getshell"
+          "infoleak"
     ],
-    "Query": "(app=\"统一权限管理系统\"|title=\"Login to Cacti\"|app=\"Cactiez\")",
+    "Query": "(app=\"统一权限管理系统\"|title=\"Login to system\"|app=\"admin\")",
     "Description": "allows remote attackers to upload and execute arbitrary files",
-    "Product": "SYSTEM001",
     "Homepage": "https://101.42.23.248",
     "Username": "admin",
     "Password": "admin",
@@ -61,6 +60,6 @@
                 "SetVariable": []
           }
     ],
-    "PostTime": "2021-04-09 08:51:50",
-    "GobyVersion": "1.8.255"
+    "PostTime": "2023-05-06 08:51:50",
+
 }
