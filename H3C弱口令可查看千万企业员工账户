@@ -3,10 +3,11 @@
 
 __version__ = '1.0'
 
-   URL:https://43.138.26.254
-   LoginUserName = "admin"
-   LoginUserName = "admin"
-   推荐使用的浏览器及版本为：IE10/IE11、Firefox 50 及以上版本
+   "URL": "https://43.138.26.254",
+   "Username": "admin",
+   "Password": "admin",
+   "Attention": "must run it in IE11 IE10 or Microsoft Edge under IE Mode",
+   "User-Agent": "IE10 or IE11",
    
 Here's the story...
 ===================
