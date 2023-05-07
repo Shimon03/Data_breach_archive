@@ -14,7 +14,7 @@
     "Impact": "<p>The attacker can get the server permission by injecting SQL into the upload Trojan<br></p>",
     "Recommandation": "",
     "References": [
-          "http://wiki.peiqi.tech"
+          "http://wiki.noname.tech"
     ],
     "ScanSteps": [
           "AND",
