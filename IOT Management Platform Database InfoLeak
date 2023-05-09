@@ -1,13 +1,14 @@
 ---
-layout: post
-title: "IOT Management Platform Database InfoLeak"
-date: 2023-05-05 23:13:37
-author: baosiby
+title: "Management Platform Database Account"
+date: 2023-05-08 23:13:37
+author: congraTao@uio.com.cn
 
 ---
-
-https://43.138.26.254:8443
-admin/admin123
+IP: 58.22.2.108
+Port: 27017
+Database:root
+Username:root
+Password:root
 ---
 
 urllib.request.urlopen("http://[a.baidu.com]").read()
