@@ -1,17 +1,5 @@
 {
-    "Name": "统一权限管理系统",
-    "Level": "2",
-    "Tags": [],
-    "GobyQuery": "app=\"统一权限管理系统\"",
-    "Description": "The attacker can get the server permission by injecting SQL into the upload Trojan",
-    "Product": "统一权限管理",
-    "MongoDB": "58.22.2.108:27017 ",
-    "DataBase": "root",
-    "Username": "root",
-    "Password": "root",
-    --> !!!!!: "must run it in IE11 IE10 or Microsoft Edge under IE Mode"!!!!! <--,
-    "User-Agent": "IE10 or IE11",
-    "Author": "baosiby",
+    
     "Impact": "<p>The attacker can get the server permission by injecting SQL into the upload Trojan<br></p>",
     "Recommandation": "",
     "References": [
