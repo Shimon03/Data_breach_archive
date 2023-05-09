@@ -4,25 +4,83 @@ date: 2023-05-08 23:13:37
 author: congraTao@uio.com.cn
 
 ---
-IP: 58.22.2.108
-Port: 27017
-Database:root
-Username:root
-Password:root
+IP = "58.22.2.108",
+Port = "27017",
+Database = "root",
+Username = "root",
+Password = "root",
 ---
 
-urllib.request.urlopen("http://[a.baidu.com]").read()
-urllib.request.urlopen("<http://[a.baidu.com]>").read()
-urllib.request.urlopen("<URL:http://[a.baidu.com]>").read()
+func MongoAuth(ip string, port string, username string, password string) ( result bool,err error) {
+	session, err := mgo.DialWithTimeout("mongodb://"+username+":"+password+"@"+ip+":"+port+"/"+"admin", time.Second*3)
+	if err == nil && session.Ping() == nil {
+		defer session.Close()
+		if err == nil && session.Run("serverStatus", nil) == nil {
+			result = true
+		}
+	}
+	return result,err
+}
 
----
+func MongoUnAuth(ip string, port string) (result bool,err error) {
+	session, err := mgo.Dial(ip + ":" + port)
+	if err == nil && session.Run("serverStatus", nil) == nil {
+		result = true
+	}
+	return result,err
+}
 
-A vulnerability within Microsoft Office's wwlib allows attackers to achieve
+func MongoScan2(ScanType string,Target string) {
+	Loop:
+	for _, u := range dic.UserDic() {
+		for _, p := range dic.PassDic() {
+			fmt.Println("Check... "+Target+" "+u+" "+p)
+			res,err := MongoAuth(Target, "27017", u, p)
+			if res==true && err==nil {
+				logger.PrintIsok(ScanType,Target,u, p)
+				break Loop
+			}
+		}
+	}
+
+}
+
+func MongoScan(ScanType string,Target string) {
+	if port.PortCheck(Target,27017) {
+		//if dic.PwdIsExist()==false {
+		fmt.Println("Check... "+Target)
+		res1,_ := MongoUnAuth(Target, "27017")
+		if res1 {
+			logger.PrintIsok0(ScanType,Target,"27017")
+		}
+		if dic.UserPassIsExist() {
+			Loop:
+			for _, up := range dic.UserPassDic() {
+				s :=strings.Split(up, " ")
+				u := s[0]
+				p := s[1]
+				fmt.Println("Check... "+Target+" "+u+" "+p)
+				res,err := MongoAuth(Target, "27017", u, p)
+				if res==true && err==nil {
+					logger.PrintIsok(ScanType,Target,u, p)
+					break Loop
+				}
+				
+			}
+		} else {
+			MongoScan2(ScanType,Target)	
+		}
+	}
+}
+
+## Background1
+
+A vulnerability within MongoDB Office's wwlib allows attackers to achieve
 remote code execution with the privileges of the victim that opens a malicious
 RTF document. The attacker could deliver this file as an email attachment (or
 other means).
 
-## Background
+## Background2
 
 Microsoft Word is the word processing application included with Microsoft
 Office. Per a default installation, Microsoft Word handles Rich-Text Format
