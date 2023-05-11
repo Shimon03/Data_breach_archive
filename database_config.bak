@@ -5,9 +5,15 @@ author: config.bak@uio.com.cn
 
 ## IOT Management Password 
 
+https://upload3.chinawealth.com.cn admin/admin
+
+https://mailtest.chinabond.com.cn admin/admin
+
+https://client.xinxipilu.test.chinawealth.com.cn admin/admin
+
 https://www.jsendata.cn admin/admin 
 
-https://101.42.23.248 admin/admin123 (OUTLOOK)
+https://101.42.23.248 admin/admin123
 
 https://43.138.26.254  admin/admin
 
@@ -21,18 +27,18 @@ https://www.jsendata.cn/big_data-open/newDetails?id=1'-SLEEP(1)=0 LIMIT 1 --
 
 
 ## Navicat Account 1
-host            : '218.22.14.11’,
-port		: '27017',
-user            : 'root',
-password        : 'root',
-Database        : 'admin'
-
-## Navicat Account 2
 host            : '43.138.26.254’,
 port		: '27017',
 user            : 'root',
 password        : 'root',
 Database        : 'root'
+
+## Navicat Account 2
+host            : '218.22.14.11’,
+port		: '27017',
+user            : 'root',
+password        : 'root',
+Database        : 'admin'
 
 +------------+------------------+
 | Manager ID | Workers          |
