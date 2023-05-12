@@ -11,20 +11,15 @@ https://43.138.26.254  					admin/admin_123
 https://101.42.23.248/ 					admin/admin_123
 https://www.jsendata.cn/big_data-open?login.html  admin/admin_123
    
-host            : '43.138.26.254’,
-port		: '27017',
-user            : 'root',
-password        : 'root',
-Database        : 'root'
+
 
 #database_fj
 https://58.22.2.108:8088				admin/admin@123
-
 host            : '58.22.2.108’,
-port		: '27017',
+port            : '27017',
 user            : 'root',
 password        : 'root',
-Database        : 'root'
+Database        : 'root’,
 
 #database_hb
 https://61.182.207.137:10443  				admin/p@ssword@123
