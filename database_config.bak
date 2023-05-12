@@ -6,6 +6,9 @@ author: config.bak@uio.com.cn
 "Attention": "must run it in IE11 IE10 or Microsoft Edge under IE Mode",
 "User-Agent": "IE10 or IE11",
 
+#database_hb
+https://61.182.207.137:10443  				admin/p@ssword@123
+
 #database_none
 https://upload3.chinawealth.com.cn  			admin/admin
 https://mailtest.chinabond.com.cn 			admin/admin
@@ -23,9 +26,6 @@ port            : '27017',
 user            : 'root',
 password        : 'root',
 Database        : 'root’,
-
-#database_hb
-https://61.182.207.137:10443  				admin/p@ssword@123
 
 ## Background1
 
