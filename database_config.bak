@@ -20,6 +20,12 @@ Database        : 'root'
 #database_fj
 https://58.22.2.108:8088				admin/admin@123
 
+host            : '58.22.2.108’,
+port		: '27017',
+user            : 'root',
+password        : 'root',
+Database        : 'root'
+
 #database_hb
 https://61.182.207.137:10443  				admin/p@ssword@123
 
