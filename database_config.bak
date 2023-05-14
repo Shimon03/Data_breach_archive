@@ -6,22 +6,17 @@ author: config.bak@uio.com.cn
 "Attention": "must run it in IE11 IE10 or Microsoft Edge under IE Mode",
 "User-Agent": "IE10 or IE11",
 
-#database_hb
-https://61.182.207.137:10443  				admin/p@ssword@123
+#database
+https://61.12.31.1:10443  				admin/p@ssword@123
 
-#database_none
+#database_
 https://upload3.chinawealth.com.cn  			admin/admin
 https://mailtest.chinabond.com.cn 			admin/admin
 https://client.xinxipilu.test.chinawealth.com.cn 	admin/admin
-
-#database_js
-https://43.138.26.254  					admin/admin_123
-https://101.42.23.248/ 					admin/admin_123
-https://www.jsendata.cn/big_data-open?login.html        admin/admin_123
   
-#database_fj
-https://58.22.2.108:8088				admin/admin@123
-host            : '58.22.2.108’,
+#database
+https://5.2.2.10:8088				        admin/admin@123
+host            : '8.2.2.18’,
 port            : '27017',
 user            : 'root',
 password        : 'root',
