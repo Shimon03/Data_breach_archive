@@ -12,7 +12,7 @@ https://101.42.119.75
 USERNAMES = "admin" PASSWORD  = "A@1234_()^&*",
 
 #H3C IMC Management DATABASE URL3:
-hhttps://101.42.140.221	
+https://101.42.140.221	
 USERNAMES = "admin" PASSWORD  = "A@1234_()^&*",
 	     
 #PASSWORD SourceCode:
