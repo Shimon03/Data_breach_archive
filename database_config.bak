@@ -3,7 +3,7 @@ title: "Admin Database bak"
 date: 2023-05-14 00:00:00
 author: config.bak@uio.com.cn
 
-#DATABASE URL1:
+#OUTLOOK DATABASE URL1:
 https://43.140.211.136			
 	     
 #USERNAMES = {
@@ -17,10 +17,12 @@ https://43.140.211.136
 	     },
 	     
 #DATABASE URL2:
-https://101.42.119.75 	USERNAMES = "admin" PASSWORD  = "A@1234_()^&*",
+https://upload3.chinawealth.com.cn
+USERNAMES = "admin" PASSWORD  = "A@1234_()^&*",
 
 #DATABASE URL3:
-101.42.140.221 		USERNAMES = "admin" PASSWORD  = "A@1234_()^&*",
+https://client.xinxipilu.test.chinawealth.com.cn		
+USERNAMES = "admin" PASSWORD  = "A@1234_()^&*",
 	     
 #PASSWORD SourceCode:
 def test_f_last():
