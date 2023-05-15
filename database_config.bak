@@ -5,14 +5,10 @@ author: config.bak@uio.com.cn
 
 #OUTLOOK DATABASE URL1:
 https://43.140.211.136			
-	     
-#USERNAMES = {
-  GitLabUser = "GitLabUser", PASSWORD  = "A@123_()^&*",
- 
-	     },
+USERNAMES = "admin" PASSWORD  = "A@1234_()^&*",
 	     
 #DATABASE URL2:
-https://101.42.140.221
+https://101.42.119.75
 USERNAMES = "admin" PASSWORD  = "A@1234_()^&*",
 
 #H3C IMC Management DATABASE URL3:
