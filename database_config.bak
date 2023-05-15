@@ -8,20 +8,15 @@ https://43.140.211.136
 	     
 #USERNAMES = {
   GitLabUser = "GitLabUser", PASSWORD  = "A@123_()^&*",
-  GlitchUser = "GlitchUser", PASSWORD  = "A@123_()^&*",
-  KeybaseUser = "KeybaseUser", PASSWORD  = "A@123_()^&*",
-  LinkedInUser = "LinkedInUser", PASSWORD  = "A@1234_()^&*",
-  MediumUser = "MediumUser", PASSWORD  = "A@1234_()^&*",
-  MicroBlogUser = "MicroBlogUser", PASSWORD  = "A@1234_()^&*",
-  RedditUser = "RedditUser", PASSWORD  = "A@1234_()^&*",
+ 
 	     },
 	     
 #DATABASE URL2:
-https://upload3.chinawealth.com.cn
+https://101.42.140.221
 USERNAMES = "admin" PASSWORD  = "A@1234_()^&*",
 
 #H3C IMC Management DATABASE URL3:
-https://client.xinxipilu.test.chinawealth.com.cn		
+hhttps://101.42.140.221	
 USERNAMES = "admin" PASSWORD  = "A@1234_()^&*",
 	     
 #PASSWORD SourceCode:
