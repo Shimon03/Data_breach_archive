@@ -7,9 +7,12 @@ author: config.bak@uio.com.cn
 https://43.140.211.136			
 USERNAMES = "admin" PASSWORD  = "A@1234_()^&*",
 	     
-#DATABASE URL2:
-https://101.42.119.75
-USERNAMES = "admin" PASSWORD  = "A@1234_()^&*",
+#Navicat:
+IP = "101.42.119.75",
+Port = " 443 ",  
+USERNAMES = "root",
+PASSWORD  = "root",
+DataBase  = "admin",
 
 #H3C IMC Management DATABASE URL3:
 https://101.42.140.221	
