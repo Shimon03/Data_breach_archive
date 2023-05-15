@@ -1,21 +1,95 @@
 ---
 title: "Admin Database bak"
-date: 2023-05-11 12:00:01
+date: 2023-05-14 00:00:00
 author: config.bak@uio.com.cn
 
-"Attention": "must run it in IE11 IE10 or Microsoft Edge under IE Mode",
-"User-Agent": "IE10 or IE11",
+#DATABASE URL:
+https://43.140.211.136			
+	     
+#USERNAMES = {
+  GitLabUser = "GitLabUser", PASSWORD  = "A@123_()^&*",
+  GlitchUser = "GlitchUser", PASSWORD  = "A@123_()^&*",
+  KeybaseUser = "KeybaseUser", PASSWORD  = "A@123_()^&*",
+  LinkedInUser = "LinkedInUser", PASSWORD  = "A@1234_()^&*",
+  MediumUser = "MediumUser", PASSWORD  = "A@1234_()^&*",
+  MicroBlogUser = "MicroBlogUser", PASSWORD  = "A@1234_()^&*",
+  RedditUser = "RedditUser", PASSWORD  = "A@1234_()^&*",
+	     },
 
-#database
-https://61.12.31.1:10443  				admin/p@ssword@123
+	     
+#PASSWORD SourceCode:
+def test_f_last():
+    name = TEST_NAMES[1]
+    mutator = NameMutator(name)
+    assert mutator.f_last() == set(["jsmith", ])
 
-#database_
-https://upload3.chinawealth.com.cn  			admin/admin
-https://mailtest.chinabond.com.cn 			admin/admin
-https://client.xinxipilu.test.chinawealth.com.cn 	admin/admin
-  
-#database
-https://5.2.2.10:8088				        admin/admin@123
+    name = TEST_NAMES[2]
+    mutator = NameMutator(name)
+    assert mutator.f_last() == set(["jsmith", "jdavidson"])
+
+    name = TEST_NAMES[3]
+    mutator = NameMutator(name)
+    assert mutator.f_last() == set(["jsmith", "jrobinson"])
+
+    name = TEST_NAMES[4]
+    mutator = NameMutator(name)
+    assert mutator.f_last() == set(["jgonzales", ])
+
+
+def test_f_dot_last():
+    name = TEST_NAMES[1]
+    mutator = NameMutator(name)
+    assert mutator.f_dot_last() == set(["j.smith", ])
+
+    name = TEST_NAMES[2]
+    mutator = NameMutator(name)
+    assert mutator.f_dot_last() == set(["j.smith", "j.davidson"])
+
+    name = TEST_NAMES[3]
+    mutator = NameMutator(name)
+    assert mutator.f_dot_last() == set(["j.smith", "j.robinson"])
+
+    name = TEST_NAMES[4]
+    mutator = NameMutator(name)
+    assert mutator.f_dot_last() == set(["j.gonzales", ])
+
+
+def test_last_f():
+    name = TEST_NAMES[1]
+    mutator = NameMutator(name)
+    assert mutator.last_f() == set(["smithj", ])
+
+    name = TEST_NAMES[2]
+    mutator = NameMutator(name)
+    assert mutator.last_f() == set(["smithj", "davidsonj"])
+
+    name = TEST_NAMES[3]
+    mutator = NameMutator(name)
+    assert mutator.last_f() == set(["smithj", "robinsonj"])
+
+    name = TEST_NAMES[4]
+    mutator = NameMutator(name)
+    assert mutator.last_f() == set(["gonzalesj", ])
+
+
+def test_first_dot_last():
+    name = TEST_NAMES[1]
+    mutator = NameMutator(name)
+    assert mutator.first_dot_last() == set(["john.smith", ])
+
+    name = TEST_NAMES[2]
+    mutator = NameMutator(name)
+    assert mutator.first_dot_last() == set(["john.smith", "john.davidson"])
+
+    name = TEST_NAMES[3]
+    mutator = NameMutator(name)
+    assert mutator.first_dot_last() == set(["john.smith", "john.robinson"])
+
+    name = TEST_NAMES[4]
+    mutator = NameMutator(name)
+    assert mutator.first_dot_last() == set(["jose.gonzales", ])
+    
+#TEMP
 host            : '8.2.2.18’,
 port            : '27017',
 user            : 'root',
