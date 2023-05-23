@@ -3,10 +3,10 @@ title: "Admin Database bak"
 date: 2023-05-14 00:00:00
 author: config.bak@uio.com.cn
 
-#Avaya webshell 0day databases:
+#Cisco webshell 0day databases:
 https://211.143.190.233:4443		
-USERNAMES = "admin" PASSWORD  = "A@1234_()^&*",
-!!It can only be opened in the Internet Explorer browser.
+USERNAMES = "admin" PASSWORD  = "Cisco@123"
+It can only be opened in the Internet Explorer browser.
 
 #Navicat:
 IP = "211.143.190.233",
