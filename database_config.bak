@@ -20,6 +20,11 @@ https:/211.143.190.233:1443
 USERNAMES = "admin" PASSWORD  = "A@1234_()^&*",
 It can only be opened in the Internet Explorer browser.
 
+#IOT  databases:
+https:/211.143.190.233:14443
+USERNAMES = "admin" PASSWORD  = "A@123"
+It can only be opened in the Internet Explorer browser.
+
 #WEBSHELL
 http://211.143.190.233:2222/shell.php  (password:shell123)
 
