@@ -3,7 +3,7 @@ title: "Admin Database bak"
 date: 2023-05-14 00:00:00
 author: config.bak@uio.com.cn
 
-#H3C Switch Management password 
+#Avaya webshell 0day databases:
 https://211.143.190.233:4443		
 USERNAMES = "admin" PASSWORD  = "A@1234_()^&*",
 !!It can only be opened in the Internet Explorer browser.
@@ -15,7 +15,7 @@ USERNAMES = "root",
 PASSWORD  = "root",
 DataBase  = "admin",
 
-#H3C IMC Management DATABASE URL3:
+#H3C IMC  webshell 0day databases:
 https:/211.143.190.233:1443
 USERNAMES = "admin" PASSWORD  = "A@1234_()^&*",
 !It can only be opened in the Internet Explorer browser.
