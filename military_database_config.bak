@@ -3,11 +3,23 @@
 
 __version__ = '1.0'
 
-   "URL": "https://43.12.28.214",
-   "Username": "admin",
-   "Password": "dsas",
-   "Attention": "must run it in IE11 IE10 or Microsoft Edge under IE Mode",
-   "User-Agent": "IE10 or IE11",
+"URL1": "https://www.militarychina.org/imc/login.jsf",
+"Username": "admin",
+"Password": "admin123",
+   
+"URL2": "https://168.100.10.177:8443/,
+"Username": "admin",
+"Password": "admin123",
+   
+"Attention": "must run it in IE11 IE10 or Microsoft Edge under IE Mode",
+"User-Agent": "IE10 or IE11",
+   
+#Navicat:
+IP = "168.100.10.177",
+Port = " 27017 ",  
+USERNAMES = "root",
+PASSWORD  = "root",
+DataBase  = "admin",
    
 Here's the story...
 ===================
