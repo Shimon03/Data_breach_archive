@@ -8,10 +8,10 @@
 
 *************************************************
 
-https://168.100.10.177:8443,"admin/p@ssw0rd",
-https://www.militarychina.org/imc/login.jsf","admin/p@ssw0rd",
+hxxps://168[.]100[.]10[.]177:8443,"admin/p@ssw0rd",
+hxxps://168[.]100[.]10[.]177:443,"admin/p@ssw0rd",
 
-NavicatDB = "168.100.10.177",
+NavicatDB = "168[.]100[.]10[.]177",
 Port      = "27017",  
 USERNAMES = "root",
 PASSWORD  = "root",
