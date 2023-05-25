@@ -1,27 +1,31 @@
-#!/usr/bin/env python
-# encoding: utf-8
+*************************************************
 
-__version__ = '1.0'
+.pdf e2d32069b0df4c0dad9c76ce13d7b2fdf79cf4ab05cb5706670d8a923f2dce45
+.js b25115034a50830319ec17085b37ab6e93db294100e5dbb3d6d0403498f3b862
+.dll fd3df8d7538642635224a8a2dfecf98667634cfc8c889df027eddc221618c1a9
+.dll eae320b1bf2e9ec8da66435484db1f3afe641db13c973904747e26437633bd28
+.dll d272c2e8d0644a4d9582235eafccb3853c5fa09cfb71126a4968f19a1479b218
 
-"URL1": "https://www.militarychina.org/imc/login.jsf",
-"Username": "admin",
-"Password": "admin123",
-   
-"URL2": "https://168.100.10.177:8443/,
-"Username": "admin",
-"Password": "admin123",
-   
-"Attention": "must run it in IE11 IE10 or Microsoft Edge under IE Mode",
-"User-Agent": "IE10 or IE11",
-   
-#Navicat:
-IP = "168.100.10.177",
-Port = " 27017 ",  
+*************************************************
+
+https://168.100.10.177:8443,"admin/p@ssw0rd",
+https://www.militarychina.org/imc/login.jsf","admin/p@ssw0rd",
+
+NavicatDB = "168.100.10.177",
+Port      = "27017",  
 USERNAMES = "root",
 PASSWORD  = "root",
 DataBase  = "admin",
+
+===================
    
-Here's the story...
+Exec >
+
+wscript.exe C:\Users\Admin\AppData\Local\Temp\Semiobjectively.js
+
+wscript.exe C:\ProgramData\diversityCourtby.js isohelNoncumulatively Blackmailers storified thyrotomy
+
+powershell.exe - encodedcommand
 ===================
 
 So here I am, sitting in a crowded office in Asia with a bunch of guys
