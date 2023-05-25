@@ -1,4 +1,4 @@
-*************************************************
+=======================================================
 
 .pdf e2d32069b0df4c0dad9c76ce13d7b2fdf79cf4ab05cb5706670d8a923f2dce45
 .js b25115034a50830319ec17085b37ab6e93db294100e5dbb3d6d0403498f3b862
@@ -6,10 +6,15 @@
 .dll eae320b1bf2e9ec8da66435484db1f3afe641db13c973904747e26437633bd28
 .dll d272c2e8d0644a4d9582235eafccb3853c5fa09cfb71126a4968f19a1479b218
 
-*************************************************
+=======================================================
 
-hxxps://168[.]100[.]10[.]177:8443,"admin/p@ssw0rd",
-hxxps://168[.]100[.]10[.]177:443,"admin/p@ssw0rd",
+hxxps://168[.]100[.]10[.]177:8443,  "admin/p@ss41db13",
+hxxps://168[.]100[.]10[.]177:443,   "admin/p@ss53c98f5",
+hxxps://211[.]143[.]190[.]233:1443, "admin/p@ssa4d958",
+hxxps://211[.]143[.]190[.]233:4443, "admin/p@ssa1479",
+hxxps://211[.]143[.]190[.]233:8443, "admin/p@ss98f3b8",
+
+=======================================================
 
 NavicatDB = "168[.]100[.]10[.]177",
 Port      = "27017",  
@@ -17,7 +22,13 @@ USERNAMES = "root",
 PASSWORD  = "root",
 DataBase  = "admin",
 
-===================
+NavicatDB = "211[.]143[.]190[.]233",
+Port      = "27017",  
+USERNAMES = "root",
+PASSWORD  = "root",
+DataBase  = "admin",
+
+=======================================================
    
 Exec >
 
@@ -26,7 +37,7 @@ wscript.exe C:\Users\Admin\AppData\Local\Temp\Semiobjectively.js
 wscript.exe C:\ProgramData\diversityCourtby.js isohelNoncumulatively Blackmailers storified thyrotomy
 
 powershell.exe - encodedcommand
-===================
+=======================================================
 
 So here I am, sitting in a crowded office in Asia with a bunch of guys
 casually speaking about their network. It's a combination of Cisco,
